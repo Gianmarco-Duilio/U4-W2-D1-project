@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2024 at 03:41 PM
+-- Generation Time: Apr 19, 2024 at 11:34 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: ` gestione_libreria`
+-- Database: `gestione_libreria`
 --
 
 -- --------------------------------------------------------
@@ -43,14 +43,9 @@ INSERT INTO `libri` (`id`, `titolo`, `autore`, `anno_pubblicazione`, `genere`) V
 (1, '1984', 'George Orwell', 1949, 'Romanzo distopico'),
 (2, 'Il Signore degli Anelli', 'J.R.R. Tolkien', 1954, 'Fantasy epico'),
 (3, 'Orgoglio e Pregiudizio', 'Jane Austen', 1813, 'Romanzo romantico'),
-(4, 'Il giovane Holden', 'J.D. Salinger', 1951, 'Romanzo di formazione'),
-(5, 'Cime tempestose', 'Emily Bronte', 1847, 'Romanzo gotico'),
-(6, 'Il Grande Gatsby', 'F. Scott Fitzgerald', 1925, 'Romanzo tragico'),
-(13, 'Guerra e Pace', 'Lev Tolstoj', 1869, 'Romanzo storico'),
-(16, 'Il Processo', ' Franz Kafka', 1925, 'Romanzo psicologico'),
-(17, 'Il vecchio e il mare', ' Ernest Hemingway', 1952, 'Romanzo breve'),
-(18, 'Le Cronache del ghiaccio e del fuoco', 'George R.R. Martin', 1996, 'Fantasy'),
-(20, 'Il nome della rosa', 'Umberto Eco ', 1980, 'Romanzo storico-giallo');
+(8, 'Guerra e Pace', 'Lev Tolstoj', 1869, 'Romanzo storico'),
+(9, 'Il nome della rosa', 'Umberto Eco', 1980, 'Romanzo storico-giallo'),
+(10, 'Le Cronache del ghiaccio e del fuoco', 'George R.R. Martin', 1996, 'Fantasy');
 
 --
 -- Indexes for dumped tables
@@ -70,7 +65,7 @@ ALTER TABLE `libri`
 -- AUTO_INCREMENT for table `libri`
 --
 ALTER TABLE `libri`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

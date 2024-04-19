@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db   = ' gestione_libreria';
+$db   = 'gestione_libreria';
 $user = 'root';
 $pass = '';
 
